@@ -21,15 +21,15 @@ public class Main {
 
         
         library.addBook(new Book<>("Vii", "gogol", libraryCard1, true));
-        library.addBook(new Book<>("", "Vaskin D.F.", libraryCard2, false));
+        library.addBook(new Book<>("ЗОЖ", "Vaskin D.F.", libraryCard2, false));
         library.addBook(new Book<>("With Love", "Melko N.M.", libraryCard3, true));
         library.addBook(new Book<>("Aravia", "Baranova F.N.", libraryCard4, false));
 
         
-        library.displayLibraryCard(libraryCard1);
-        library.displayLibraryCard(libraryCard2);
-        library.displayLibraryCard(libraryCard3);
-        library.displayLibraryCard(libraryCard4);
+        // library.displayLibraryCard(libraryCard1);
+        // library.displayLibraryCard(libraryCard2);
+        // library.displayLibraryCard(libraryCard3);
+        // library.displayLibraryCard(libraryCard4);
 
         // System.out.println(library.getList().get(0));
         // for (LibraryCard<Integer, String> card : library.getList()) {
